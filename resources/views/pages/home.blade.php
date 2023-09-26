@@ -9,12 +9,12 @@
           <!-- Heading -->
           <div class="mb-7">
             <h1 class="display-4 text-white text-capitalize mb-4">TOP POINT RECYCLERS</h1>
-            <p class="lead text-white text-capitalize mb-4">available to assist you in maximizing the value of your recyclable materials.</p>
+            <p class="lead text-white text-capitalize mb-4">Transforming Waste into Opportunity, Empowering Communities, and Shaping a Sustainable Future</p>
           </div>
           <!-- End Title & Description -->
 
           <div class="d-grid d-sm-flex justify-content-center gap-2">
-            <a class="btn btn-light btn-transition px-6" href="{{ route('recyclables-pick-up') }}">Services</a>
+            <a class="btn btn-light btn-transition px-6" href="{{ route('recyclables-pick-up') }}">Learn More</a>
             <a class="btn text-white" href="{{ route('contact') }}">Get in touch <i class="bi-chevron-right small ms-1"></i></a>
           </div>
         </div>
@@ -54,15 +54,31 @@
       <div class="row justify-content-lg-between align-items-lg-center">
         <div class="col-lg-5 mb-9 mb-lg-0">
           <div class="mb-3">
-            <h2 class="h1">Whatever work you do, use our design</h2>
+            <h2 class="h1">ABOUT US</h2>
           </div>
 
-          <p>After brainstorming about insights, get the power to create something real. Bring your ideas to life and share your vision with concrete elements. Make collaboration and communication easier with your team or your client.</p>
+          <p style="color: black;">
+          Top Point Recycling, founded in 2022, is a for-profit company with a purpose. Our journey began with a mission to redefine waste, transforming it from a burden into a valuable resource.
+    </p>
 
-          <p>Use our tools to explore your ideas and make your vision come true. Then share your work easily.</p>
+    <h4 style="color: black;">Our Mission:</h4>
+    <p style="color: black;">
+        At Top Point Recycling, our mission is clear: to change the way society views waste. We don't just recycle; we innovate, turning garbage into products.
+    </p>
+
+    <h4 style="color: black;">Our Values:</h4>
+    <p style="color: black;">
+        Our values drive our actions:
+    </p>
+    <ul style="color: black;">
+        <li>Sustainability: We reduce waste and minimize environmental impact.</li>
+        <li>Social Responsibility: We create jobs and empower communities.</li>
+        <li>Innovation: We're always finding new ways to improve recycling.</li>
+        <li>Integrity: We maintain the highest ethical standards.</li>
+    </ul>
 
           <div class="mt-4">
-            <a class="btn btn-primary btn-transition px-5" href="#">Start Now</a>
+            <a class="btn btn-primary btn-transition px-5" href="#">Read More</a>
           </div>
         </div>
         <!-- End Col -->
@@ -147,127 +163,157 @@
     </div>
     <!-- End Features -->
 
+<head>
+    <title><span style="color: white;">Our Recycling Services</span></title>
+    <style>
+        .service-section {
+            background-color: #214b99;
+            color: #fff;
+            padding: 40px;
+            text-align: center;
+        }
 
-    <div class="overflow-hidden">
-      <div class="container position-relative content-space-2 content-space-t-lg-3">
-        <!-- Heading -->
-        <div class="w-md-75 w-lg-50 text-center mx-md-auto mb-5 mb-md-9">
-          <span class="text-cap">What we do?</span>
-          <h2>Front makes designing easy and performance fast</h2>
+        .service-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); 
+            gap: 20px;
+        }
+
+        .service-item {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+
+        .service-item h3 {
+            color: #214b99;
+        }
+
+        .service-item p {
+            color: #444;
+        }
+
+        .service-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        </style>
+</head>
+<body>
+    <section class="service-section">
+        <div class="container position-relative content-space-2 content-space-t-lg-3">
+            <div class="w-md-75 w-lg-50 text-center mx-md-auto mb-5 mb-md-9">
+                
+                <h2>Our Recycling Services</h2>
+            </div>
+            <div class="service-grid">
+                <div class="service-item">
+                    <h3>Recycling Solutions</h3>
+                    <p>Our core offering is comprehensive recycling solutions. We accept a wide range of recyclable materials and manage the entire process, from collection and transportation to sorting and processing. Our sustainable practices ensure that waste becomes a valuable resource.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Waste Management Consultation</h3>
+                    <p>We provide customized waste reduction plans and sustainability assessments. Our experts guide you through regulatory compliance, helping your organization make environmentally responsible decisions.</p>
+                </div>
+                <div class="service-item">
+                    <h3>E-Waste Recycling</h3>
+                    <p>Safely disposing of electronic waste is crucial. We offer a secure electronic recycling process, including data security measures, to protect sensitive information and the environment.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Hazardous Waste Disposal</h3>
+                    <p>Hazardous waste demands careful handling. We ensure safe disposal procedures and strict adherence to regulations, mitigating risks and environmental harm.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Sustainability Programs</h3>
+                    <p>We strive to embrace and drive change in our industry which allows us to keep our clients relevant.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Recyclables Pickup</h3>
+                    <p>We offer convenient recyclables pickup services, making it easy for individuals, companies, and government entities to participate in recycling efforts. Simply schedule a pickup, and we'll handle the rest.</p>
+                </div>
+                </div>
+    </section>
+</body>
+    <head>
+    <title>Sustainability Section</title>
+    <style>
+        .sustainability-section {
+            background-color: #f2f9fd; 
+            padding: 40px;
+            text-align: center;
+        }
+        .sustainability-heading {
+            margin-bottom: 20px;
+        }
+        .section-heading {
+            font-size: 28px;
+            color: #000000 ;
+        }
+        .sustainability-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); 
+            gap: 20px;
+        }
+        .sustainability-item {
+            background-color: #ffffff; 
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+        }
+        .sub-heading {
+            font-size: 20px;
+            color: #214b99; 
+            margin-bottom: 10px;
+        }
+        .description {
+            color: Black;
+        }
+        .cta-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #214b99;
+            color: #fff; 
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+            margin-top: 20px;
+        }
+        .cta-button:hover {
+            background-color: #234d91; 
+        }
+    </style>
+</head>
+<body>
+    <section class="sustainability-section">
+        <div class="sustainability-heading">
+            <h2 class="section-heading">Our Sustainability Commitment</h2>
         </div>
-        <!-- End Heading -->
-
-        <div class="row">
-          <div class="col-sm-6 col-md-4 mb-3 mb-md-5">
-            <!-- Icon Blocks -->
-            <div class="pe-lg-6">
-              <span class="svg-icon text-primary mb-3">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M15.6 5.59998L20.9 10.9C21.3 11.3 21.3 11.9 20.9 12.3L17.6 15.6L11.6 9.59998L15.6 5.59998ZM2.3 12.3L7.59999 17.6L11.6 13.6L5.59999 7.59998L2.3 10.9C1.9 11.3 1.9 11.9 2.3 12.3Z" fill="#035A4B"></path>
-                <path opacity="0.3" d="M17.6 15.6L12.3 20.9C11.9 21.3 11.3 21.3 10.9 20.9L7.59998 17.6L13.6 11.6L17.6 15.6ZM10.9 2.3L5.59998 7.6L9.59998 11.6L15.6 5.6L12.3 2.3C11.9 1.9 11.3 1.9 10.9 2.3Z" fill="#035A4B"></path>
-                </svg>
-
-              </span>
-
-              <h4>More creativity</h4>
-              <p>This is where we really begin to visualize your napkin sketches and make them into beautiful pixels.</p>
+        <div class="sustainability-grid">
+            <div class="sustainability-item">
+                <h3 class="sub-heading">Reducing Environmental Impact</h3>
+                <p class="description">We are dedicated to minimizing our carbon footprint, conserving valuable resources, and improving energy efficiency. Our recycling efforts significantly reduce waste sent to landfills, contributing to a cleaner, greener planet.</p>
             </div>
-            <!-- End Icon Blocks -->
-          </div>
-          <!-- End Col -->
-
-          <div class="col-sm-6 col-md-4 mb-3 mb-md-5">
-            <!-- Icon Blocks -->
-            <div class="pe-lg-6">
-              <span class="svg-icon text-primary mb-3">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path opacity="0.3" d="M12.5 22C11.9 22 11.5 21.6 11.5 21V3C11.5 2.4 11.9 2 12.5 2C13.1 2 13.5 2.4 13.5 3V21C13.5 21.6 13.1 22 12.5 22Z" fill="#035A4B"></path>
-                <path d="M17.8 14.7C17.8 15.5 17.6 16.3 17.2 16.9C16.8 17.6 16.2 18.1 15.3 18.4C14.5 18.8 13.5 19 12.4 19C11.1 19 10 18.7 9.10001 18.2C8.50001 17.8 8.00001 17.4 7.60001 16.7C7.20001 16.1 7 15.5 7 14.9C7 14.6 7.09999 14.3 7.29999 14C7.49999 13.8 7.80001 13.6 8.20001 13.6C8.50001 13.6 8.69999 13.7 8.89999 13.9C9.09999 14.1 9.29999 14.4 9.39999 14.7C9.59999 15.1 9.8 15.5 10 15.8C10.2 16.1 10.5 16.3 10.8 16.5C11.2 16.7 11.6 16.8 12.2 16.8C13 16.8 13.7 16.6 14.2 16.2C14.7 15.8 15 15.3 15 14.8C15 14.4 14.9 14 14.6 13.7C14.3 13.4 14 13.2 13.5 13.1C13.1 13 12.5 12.8 11.8 12.6C10.8 12.4 9.99999 12.1 9.39999 11.8C8.69999 11.5 8.19999 11.1 7.79999 10.6C7.39999 10.1 7.20001 9.39998 7.20001 8.59998C7.20001 7.89998 7.39999 7.19998 7.79999 6.59998C8.19999 5.99998 8.80001 5.60005 9.60001 5.30005C10.4 5.00005 11.3 4.80005 12.3 4.80005C13.1 4.80005 13.8 4.89998 14.5 5.09998C15.1 5.29998 15.6 5.60002 16 5.90002C16.4 6.20002 16.7 6.6 16.9 7C17.1 7.4 17.2 7.69998 17.2 8.09998C17.2 8.39998 17.1 8.7 16.9 9C16.7 9.3 16.4 9.40002 16 9.40002C15.7 9.40002 15.4 9.29995 15.3 9.19995C15.2 9.09995 15 8.80002 14.8 8.40002C14.6 7.90002 14.3 7.49995 13.9 7.19995C13.5 6.89995 13 6.80005 12.2 6.80005C11.5 6.80005 10.9 7.00005 10.5 7.30005C10.1 7.60005 9.79999 8.00002 9.79999 8.40002C9.79999 8.70002 9.9 8.89998 10 9.09998C10.1 9.29998 10.4 9.49998 10.6 9.59998C10.8 9.69998 11.1 9.90002 11.4 9.90002C11.7 10 12.1 10.1 12.7 10.3C13.5 10.5 14.2 10.7 14.8 10.9C15.4 11.1 15.9 11.4 16.4 11.7C16.8 12 17.2 12.4 17.4 12.9C17.6 13.4 17.8 14 17.8 14.7Z" fill="#035A4B"></path>
-                </svg>
-
-              </span>
-
-              <h4>Scale budgets efficiently</h4>
-              <p>Now that we've aligned the details, it's time to get things mapped out and organized.</p>
+            <div class="sustainability-item">
+                <h3 class="sub-heading">Promoting a Circular Economy</h3>
+                <p class="description">Recycling is at the heart of the circular economy. We believe in recycling and reusing materials, extending product lifecycles, and closing the loop in the manufacturing process.</p>
             </div>
-            <!-- End Icon Blocks -->
-          </div>
-          <!-- End Col -->
-
-          <div class="col-sm-6 col-md-4 mb-3 mb-md-5">
-            <!-- Icon Blocks -->
-            <div class="pe-lg-6">
-              <span class="svg-icon text-primary mb-3">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path opacity="0.3" d="M10.9607 12.9128H18.8607C19.4607 12.9128 19.9607 13.4128 19.8607 14.0128C19.2607 19.0128 14.4607 22.7128 9.26068 21.7128C5.66068 21.0128 2.86071 18.2128 2.16071 14.6128C1.16071 9.31284 4.96069 4.61281 9.86069 4.01281C10.4607 3.91281 10.9607 4.41281 10.9607 5.01281V12.9128V12.9128Z" fill="#035A4B"></path>
-                <path d="M12.9607 10.9128V3.01281C12.9607 2.41281 13.4607 1.91281 14.0607 2.01281C16.0607 2.21281 17.8607 3.11284 19.2607 4.61284C20.6607 6.01284 21.5607 7.91285 21.8607 9.81285C21.9607 10.4129 21.4607 10.9128 20.8607 10.9128H12.9607V10.9128Z" fill="#035A4B"></path>
-                </svg>
-
-              </span>
-
-              <h4>Smart Dashboards</h4>
-              <p>This is where we really begin to visualize your napkin sketches and make them into beautiful pixels.</p>
+            <div class="sustainability-item">
+                <h3 class="sub-heading">Driving Green Initiatives</h3>
+                <p class="description">We actively engage in partnerships and collaborations to advance eco-friendly technologies and sustainable practices. Together, we work toward a more sustainable future.</p>
             </div>
-            <!-- End Icon Blocks -->
-          </div>
-          <!-- End Col -->
-
-          <div class="col-sm-6 col-md-4 mb-3 mb-md-5">
-            <!-- Icon Blocks -->
-            <div class="pe-lg-6">
-              <span class="svg-icon text-primary mb-3">
-                <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path opacity="0.3" d="M16 0.200012H4C1.8 0.200012 0 2.00001 0 4.20001V16.2C0 18.4 1.8 20.2 4 20.2H16C18.2 20.2 20 18.4 20 16.2V4.20001C20 2.00001 18.2 0.200012 16 0.200012ZM15 10.2C15 10.9 14.8 11.6 14.6 12.2H18V16.2C18 17.3 17.1 18.2 16 18.2H12V14.8C11.4 15.1 10.7 15.2 10 15.2C9.3 15.2 8.6 15 8 14.8V18.2H4C2.9 18.2 2 17.3 2 16.2V12.2H5.4C5.1 11.6 5 10.9 5 10.2C5 9.50001 5.2 8.80001 5.4 8.20001H2V4.20001C2 3.10001 2.9 2.20001 4 2.20001H8V5.60001C8.6 5.30001 9.3 5.20001 10 5.20001C10.7 5.20001 11.4 5.40001 12 5.60001V2.20001H16C17.1 2.20001 18 3.10001 18 4.20001V8.20001H14.6C14.8 8.80001 15 9.50001 15 10.2Z" fill="#035A4B"></path>
-                <path d="M12 1.40002C15.4 2.20002 18 4.80003 18.8 8.20003H14.6C14.1 7.00003 13.2 6.10003 12 5.60003V1.40002V1.40002ZM5.40001 8.20003C5.90001 7.00003 6.80001 6.10003 8.00001 5.60003V1.40002C4.60001 2.20002 2.00001 4.80003 1.20001 8.20003H5.40001ZM14.6 12.2C14.1 13.4 13.2 14.3 12 14.8V19C15.4 18.2 18 15.6 18.8 12.2H14.6V12.2ZM8.00001 14.8C6.80001 14.3 5.90001 13.4 5.40001 12.2H1.20001C2.00001 15.6 4.60001 18.2 8.00001 19V14.8V14.8Z" fill="#035A4B"></path>
-                </svg>
-
-              </span>
-
-              <h4>Control Center</h4>
-              <p>Now that we've aligned the details, it's time to get things mapped out and organized.</p>
+            <div class="sustainability-item">
+                <h3 class="sub-heading">Empowering Communities</h3>
+                <p class="description">Sustainability isn't just about the environment; it's also about people. Through our initiatives, we empower communities by creating jobs and fostering a sense of responsibility toward our planet.</p>
             </div>
-            <!-- End Icon Blocks -->
-          </div>
-          <!-- End Col -->
-
-          <div class="col-sm-6 col-md-4 mb-3 mb-sm-0">
-            <!-- Icon Blocks -->
-            <div class="pe-lg-6">
-              <span class="svg-icon text-primary mb-3">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M6 8.725C6 8.125 6.4 7.725 7 7.725H14L18 11.725V12.925L22 9.725L12.6 2.225C12.2 1.925 11.7 1.925 11.4 2.225L2 9.725L6 12.925V8.725V8.725Z" fill="#035A4B"></path>
-                <path opacity="0.3" d="M22 9.72498V20.725C22 21.325 21.6 21.725 21 21.725H3C2.4 21.725 2 21.325 2 20.725V9.72498L11.4 17.225C11.8 17.525 12.3 17.525 12.6 17.225L22 9.72498ZM15 11.725H18L14 7.72498V10.725C14 11.325 14.4 11.725 15 11.725Z" fill="#035A4B"></path>
-                </svg>
-
-              </span>
-
-              <h4>Email Reports</h4>
-              <p>We strive to embrace and drive change in our industry which allows us to keep our clients relevant.</p>
-            </div>
-            <!-- End Icon Blocks -->
-          </div>
-          <!-- End Col -->
-
-          <div class="col-sm-6 col-md-4">
-            <!-- Icon Blocks -->
-            <div class="pe-lg-6">
-              <span class="svg-icon text-primary mb-3">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path opacity="0.3" d="M3 3V17H7V21H15V9H20V3H3Z" fill="#035A4B"></path>
-                <path d="M20 22H3C2.4 22 2 21.6 2 21V3C2 2.4 2.4 2 3 2H20C20.6 2 21 2.4 21 3V21C21 21.6 20.6 22 20 22ZM19 4H4V8H19V4ZM6 18H4V20H6V18ZM6 14H4V16H6V14ZM6 10H4V12H6V10ZM10 18H8V20H10V18ZM10 14H8V16H10V14ZM10 10H8V12H10V10ZM14 18H12V20H14V18ZM14 14H12V16H14V14ZM14 10H12V12H14V10ZM19 14H17V20H19V14ZM19 10H17V12H19V10Z" fill="#035A4B"></path>
-                </svg>
-
-              </span>
-
-              <h4>Forecasting</h4>
-              <p>Staying focused allows us to turn every project we complete into something we love.</p>
-            </div>
-            <!-- End Icon Blocks -->
-          </div>
-          <!-- End Col -->
+        <div class="learn-more-button">
+            <a href="#" class="cta-button">Learn More</a>
         </div>
-        <!-- End Row -->
+    </section>
 
+      
         <!-- SVG Shape -->
         <figure class="position-absolute zi-n1" style="top: -35rem; left: 50rem; width: 62rem; height: 62rem;">
           <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 260 260">
